@@ -1,0 +1,20 @@
+{
+  "name": "playwright-e2e-framework",
+  "version": "1.0.0",
+  "description": "Practice Test Repo for creating a frame work from strach",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sankarsubramaniam96/playwright-e2e-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework/issues"
+  },
+  "homepage": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework#readme"
+}
