@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework/issues"
   },
-  "homepage": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework#readme"
+  "homepage": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
 }
