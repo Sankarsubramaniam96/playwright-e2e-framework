@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Practice Test Repo for creating a frame work from strach",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sankarsubramaniam96/playwright-e2e-framework.git"
@@ -18,6 +16,7 @@
   },
   "homepage": "https://github.com/Sankarsubramaniam96/playwright-e2e-framework#readme",
   "devDependencies": {
-    "@playwright/test": "^1.57.0"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.6"
   }
 }
