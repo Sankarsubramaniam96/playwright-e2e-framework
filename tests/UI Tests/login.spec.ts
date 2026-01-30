@@ -1,11 +1,11 @@
-import {test, expect} from '@playwright/test';
-import { LoginSteps } from '../steps/LoginSteps';
-import { invalidLoginData } from '../utils/loginTestData';
+import {test, expect, Page} from '@playwright/test';
+import {LoginSteps} from '../../steps/LoginSteps';
+import { invalidLoginData } from '../../utils/loginTestData';
 
 test.describe('Login Tests', () => {
   let loginSteps: LoginSteps;
 
-  test.beforeEach(async ({ page }) => {
+  test.beforeEach(async ({ page }: {page:Page}) => {
     loginSteps = new LoginSteps(page);
     await page.goto('/'); // Navigates to baseURL defined in playwright.config.ts
   });
